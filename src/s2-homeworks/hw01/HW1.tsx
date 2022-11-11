@@ -14,35 +14,37 @@ import avatar from './avatar.png'
 * */
 
 // нужно создать правильный тип вместо any
-export type MessageType = {
+export type DataType = {
     id: number
-    user: {
-        avatar: string
-        name: string
-    }
-    message: {
-        text: string
-        time: string
-    }
+    user: UserType
+    message: MessageType
+}
+type MessageType = {
+    text: string
+    time: string
+}
+type UserType = {
+    avatar: string
+    name: string
 }
 
 // структуру объекта не менять
-export const message0: MessageType = {
+export const message0: DataType = {
     id: 0,
     user: {
         avatar: avatar, // можно менять
-        name: 'Some Name',  // можно менять
+        name: 'Brad',  // можно менять
     },
     message: {
         text: 'some text some', // можно менять
-        time: '22:00', // можно менять
+        time: '22:01', // можно менять
     },
 }
-export const friendMessage0: MessageType = {
+export const friendMessage0: DataType  = {
     id: 100,
     user: {
         avatar: avatar, // можно менять
-        name: 'Friend Name', // можно менять
+        name: 'Brad', // можно менять
     },
     message: {
         text: 'зеркальное сообщение для тренировки css', // можно менять
