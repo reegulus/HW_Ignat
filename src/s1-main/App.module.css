@@ -1,9 +1,19 @@
 .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     --header_height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
 }
 
 .hw {
-
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70vw;
 }
 
 .hwTitle {
