@@ -1,36 +1,52 @@
 .message {
-    position: absolute;
-    width: 462px;
-    height: 77px;
-    left: 70px;
-    top: 275px;
 
 }
 
 .imageAndText {
+    display: flex;
+    align-items: end;
 
 }
 
 .imageAndText img {
 
+    height: 2.5em;
+    margin-right: 1em;
+
 }
 
 .text {
+    position: relative;
+    padding: .5em 1em;
+    background-color: #d6d8dc;
+    border-radius: 10px 10px 10px 0;
+    max-width: 50vw;
+
 
 }
 
 .text:after {
+    content: '◢';
+    position: absolute;
+    color: #d6d8dc;
+    left: -.5em;
+    bottom: -.32em;
+
 
 }
 
 .name {
-
+    font-weight: 600;
 }
 
 .messageText {
+    font-family: 'Montserrat', sans-serif;
+    white-space: pre-wrap;
 
 }
 
 .time {
+    font-size: .5em;
+    margin-left: 1em;
 
 }
