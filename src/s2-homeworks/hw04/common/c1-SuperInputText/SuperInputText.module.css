@@ -2,6 +2,12 @@
 }
 
 .input {
+    padding: .5em;
+    font-size: 1em;
+    width: 20vw;
+    margin-right: 2vw;
+    border-radius: .3em;
+    border: 1px solid #adadad;
 }
 
 .inputWrapper {
