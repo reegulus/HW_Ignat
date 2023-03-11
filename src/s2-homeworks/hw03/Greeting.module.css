@@ -2,13 +2,25 @@
 }
 
 .inputAndButtonContainer {
+    display: flex;
+    align-items: start;
+    margin-top: .5em;
+    margin-bottom: .5em;
+
 }
 
 .error {
     color: red;
+    margin-top: .5em;
 }
 
 .input {
+    padding: .5em;
+    font-size: 1em;
+    width: 20vw;
+    margin-right: 2vw;
+    border-radius: .3em;
+    border: 1px solid #212A34;
 }
 
 .input:focus {
@@ -19,12 +31,24 @@
 }
 
 .button {
+    padding: .5em 1.5em;
+    font-size: 1em;
+    color: white;
+    background-color: #0066cc;
+    border-radius: .3em;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: #0059b3;
 }
 
 .button:focus {
 }
 
 .button:active {
+    background-color: #00122c;
 }
 
 .button:disabled {
