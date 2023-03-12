@@ -1,4 +1,5 @@
 .sidebar {
+
 }
 
 .sidebar.open {
@@ -11,12 +12,18 @@
 }
 
 .nav a {
+    color: #212A34;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .nav a:hover {
 }
 
 .nav a.active {
+    text-decoration: underline ;
+    color: #0066cc;
 }
 .close {
 }
