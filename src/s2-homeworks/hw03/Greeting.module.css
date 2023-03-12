@@ -51,7 +51,7 @@
 }
 
 .button:active {
-    /*background-color: #00122c;*/
+    background-color: #9a9a9a;
 }
 
 .button:disabled {
