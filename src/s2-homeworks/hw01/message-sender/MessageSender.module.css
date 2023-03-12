@@ -12,7 +12,7 @@
     width: 55vw;
     height: 2em;
     padding: .5em 1em;
-    /*outline: none;*/
+    outline: none;
     border: none;
     background-color: #dde0e3;
     border-radius: .3em;
@@ -35,5 +35,5 @@
 }
 
 .button:active {
-    box-shadow: inset 0 0 2px 2px;
+    /*box-shadow: inset 0 0 2px 2px;*/
 }
