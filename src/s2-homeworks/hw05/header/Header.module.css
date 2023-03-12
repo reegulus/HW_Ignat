@@ -2,6 +2,21 @@
 }
 
 .header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 98;
+    background-color: white;
+    box-shadow: 0 2px 10px 0;
+
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 0;
+    width: 70vw;
+    margin: 0 auto;
 }
 
 .header h1 {
