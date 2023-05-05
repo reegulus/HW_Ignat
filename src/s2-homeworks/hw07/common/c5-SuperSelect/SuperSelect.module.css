@@ -5,8 +5,13 @@
 }
 
 .select:focus {
+    outline: none;
+    border: #0094ff solid 2px;
 }
 
 
 .option:hover {
+    box-shadow: 0 0 10px 1000px yellowgreen inset;
+    transition: all .2s ease-in-out;
+    background: red;
 }

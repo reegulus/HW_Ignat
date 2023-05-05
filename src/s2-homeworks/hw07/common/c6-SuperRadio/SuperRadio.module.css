@@ -1,15 +1,38 @@
+/*
 .radio {
+    appearance: none;
+    height: 10px;
+    width: 10px;
+
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    background: #cccccc;
 }
 
 .radio::before {
 }
 
+.radio:hover {
+}
+
 
 .radio:checked::before {
+
+}
+
+.radio:focus {
+    background-color: #0066ccff;
+}
+
+.radio:checked {
+    background-color: #0066ccff;
 }
 
 .label {
+    cursor: pointer;
 }
 
 .options {
 }
+*/
